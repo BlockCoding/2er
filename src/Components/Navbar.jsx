@@ -1,5 +1,6 @@
 import React from "react";
 import '../Components/Navbar.css'
+import logo from '../images/logo.png'
 // import { Link } from "react-router-dom";
 // import { Fa } from "react-icons/fa";
 const Navbar = () => {
@@ -8,14 +9,15 @@ const Navbar = () => {
             <div className="navbar">
                 <div className="navbar-logo">
                     {/* <Link to="/" className="company-logo"> */}
-                    <img src="images/Logo.png" alt="Company Logo"/>
+                    <img src={logo} alt="Company Logo"/>
                     {/* </Link> */}
                 </div>
                     <ul className="navbar-links">
                         <li>School</li>
-                        <li>School</li>
-                        <li>School</li>
-                        <li>School</li>
+                        <li>Course</li>
+                        <li>About Us</li>
+                        <li>Tuition</li>
+                        <li>FAQs</li>
                        {/* <Link to="./about">About</Link>
                         <Link to="./privacy">Privacy</Link>
                         <Link to="./terms">Terms</Link>
@@ -23,7 +25,6 @@ const Navbar = () => {
                         <Link to="./download">Download App</Link> */}
                       {/* <Dropdown/> */}
                     </ul>
-               
             </div>
         </div>
     );

@@ -1,0 +1,22 @@
+.moving {
+    background:#F53B41;
+    padding: 10px 0%;
+    height: auto;
+}
+.scrolling-container {
+    animation:  marquee 20s linear infinite;
+    /* background: green; */
+    width: auto;
+}
+.scrolling-container img {
+    width: 17%;
+    padding: 0px 1%;
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

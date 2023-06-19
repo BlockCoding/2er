@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.hero {
+    padding: 120px 100px;
+    display: flex;
+    height: auto;
+    gap: 10%;
+}
+.hero .hero-content{
+    width: 50%;
+    padding: 50px 0%;
+}
+.hero .hero-content h4{
+    font-size: 18px;
+    font-weight: 500;
+    color: #F53B41;
+}
+.hero .hero-content h1{
+ text-transform: capitalize;
+ font-size: 45px;
+ padding: 15px 0%;
+}
+.hero .hero-content p{
+    padding:0px 0%;
+}
+.hero .hero-content .buttons {
+    padding: 18px 0%;
+}
+.hero .hero-content .buttons button {
+    width: auto;
+    background: #000;
+    cursor: pointer;
+    padding: 10px 5%;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 20px;
+}
+.hero .hero-images{
+    background: #000;
+    width: 50%;
+}
+.hero .hero-images img {
+width: 100%;
+background: red;
+}
+.product .product-grid {
+    display: grid;
+    height: auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3%;
+    padding: 50px 100px;
+}
+.product .product-grid .grid-box {
+    background: #FCCECF;
+    padding: 30px 5%;
+    border-radius: 10px;
+}
+.product .product-grid .grid-box p{
+    padding: 15px 0%;
+}
+.product .product-grid .grid-box button {
+    border: none;
+    width: auto;
+    background:#F53B41;
+    cursor: pointer;
+    padding: 10px 5%;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 20px;
+}
+.company {
+    display: flex;
+    grid:20px;
+}
