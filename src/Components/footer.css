@@ -1,0 +1,19 @@
+footer {
+    height:auto;
+    background:#F53B41;
+    padding: 30px 100px;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin: auto;
+}
+footer .footer-box h2{
+    color: #fff;
+    font-size: 27px;
+}
+footer .footer-box a{
+    display: block;
+    padding: 10px 0%;
+    color: #fff;
+    font-size: 15px;
+}

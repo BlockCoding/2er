@@ -1,0 +1,36 @@
+.scroll-up-button {
+    position: fixed;
+    bottom: 30px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    background: #FCCECF;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition:  opacity 0.3s ease-in-out;
+    text-align: center;
+    display: flex;
+    color: #F53B41;
+    font-size: 20px;
+    Right: 50px;
+}
+
+.scroll-up-button.show {
+    opacity: 1;
+}
+
+@media screen and (max-width: 768px){
+    .scroll-up-button {
+        bottom: 30px;
+        right: 20px;
+        width: 60px;
+        height: 60px;
+        font-size: 23px;
+    }
+    .scroll-up-button:hover{
+        filter: brightness(80%);
+    }
+    
+}

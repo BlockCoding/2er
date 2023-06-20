@@ -17,35 +17,47 @@
 .hero .hero-content h4{
     font-size: 18px;
     font-weight: 500;
+    background:#FCCECF;
+    padding: 10px;
+    text-align: center;
+    width: 40%;
+    border-radius: 20px;
     color: #F53B41;
 }
 .hero .hero-content h1{
  text-transform: capitalize;
- font-size: 45px;
+ font-size: 59px;
  padding: 15px 0%;
+}
+.hero .hero-content .males {
+    padding: 20px 0%;
+}
+.hero .hero-content .males img {
+    width: 43%;
 }
 .hero .hero-content p{
     padding:0px 0%;
 }
 .hero .hero-content .buttons {
-    padding: 18px 0%;
+    padding: 0px 0%;
 }
 .hero .hero-content .buttons button {
     width: auto;
-    background: #000;
+    background:#F53B41;
+    border: none;
     cursor: pointer;
-    padding: 10px 5%;
+    padding: 10px 8%;
     color: #fff;
     font-size: 17px;
     border-radius: 20px;
 }
 .hero .hero-images{
-    background: #000;
+    /* background: #000; */
     width: 50%;
 }
 .hero .hero-images img {
 width: 100%;
-background: red;
+/* background: red; */
 }
 .product .product-grid {
     display: grid;
@@ -75,4 +87,55 @@ background: red;
 .company {
     display: flex;
     grid:20px;
+    padding: 60px 100px;
+}
+.company-images img{
+    border-radius: 10px;
+    width: 60%;
+}
+.company .text {
+    position:sticky;
+    background:#FCCECF;
+    padding: 50px 2%;
+    top: 210%;
+    width: 58%;
+    height: 46%;
+    border-radius: 5px;
+}
+.company .text h2 {
+    font-size: 30px;
+}
+.company .text p{
+    padding: 17px 0%;
+    font-size: 19px;
+}
+.company .text button {
+    border: none;
+    width: auto;
+    background:#F53B41;
+    cursor: pointer;
+    padding: 10px 5%;
+    color: #fff;
+    font-size: 17px;
+}
+.career {
+    width: 87%;
+    margin: auto;
+    background:#FCCECF;
+    height: auto;
+    place-items: center;
+    display: flex;
+    padding: 20px 10%;
+}
+.imags-career {
+    width: 50%;
+}
+.career-text {
+    width: 50%;
+}
+.career-text h2{
+font-size: 35px;
+}
+.career img {
+    width: 50%;
 }

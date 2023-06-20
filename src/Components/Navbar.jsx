@@ -1,7 +1,7 @@
 import React from "react";
 import '../Components/Navbar.css'
 import logo from '../images/logo.png'
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 // import { Fa } from "react-icons/fa";
 const Navbar = () => {
     return(
@@ -13,11 +13,13 @@ const Navbar = () => {
                     {/* </Link> */}
                 </div>
                     <ul className="navbar-links">
-                        <li>School</li>
-                        <li>Course</li>
-                        <li>About Us</li>
-                        <li>Tuition</li>
-                        <li>FAQs</li>
+                        <Link to="#">School</Link>
+                        <Link to="#">Course</Link>
+                        <Link to="#">About Us</Link>
+                        <Link to="#">Tuition</Link>
+                        <Link to="#">FAQs</Link>
+                        <Link to="/signIn">Login</Link>
+                        <Link to="/signUp">Sign Up</Link>
                        {/* <Link to="./about">About</Link>
                         <Link to="./privacy">Privacy</Link>
                         <Link to="./terms">Terms</Link>
