@@ -3,13 +3,19 @@ footer {
     background:#F53B41;
     padding: 30px 100px;
     display: flex;
-    gap: 100px;
+    gap: 40px;
     justify-content: center;
     margin: auto;
 }
+footer .footer-box {
+    /* background: #000; */
+    width: 100%;
+}
 footer .footer-box h2{
     color: #fff;
-    font-size: 27px;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 footer .footer-box a{
     display: block;

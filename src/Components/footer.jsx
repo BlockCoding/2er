@@ -4,6 +4,18 @@ import '../Components/footer.css'
     return(
         <div>
             <footer>
+            <div className='footer-box'>
+    <h2>
+      LEARN
+    </h2>
+<a href='#'>Learn Python</a>
+<a href='#'>Learn Js</a>
+<a href='#'>Learn HTML</a>
+<a href='#'>Learn CSS</a>
+<a href='#'>Learn flutter</a>
+<a href='#'>Learn ReactJs</a>
+<a href='#'>Learn Firebase</a>
+  </div>
   <div className='footer-box'>
     <h2>
       Schools
@@ -25,11 +37,12 @@ import '../Components/footer.css'
   </div>
   <div className='footer-box'>
     <h2>
-      Company
-    </h2>
+      CERTIFICATION
+          </h2>
 <a href='#'>Certificate</a>
-<a href='#'>Scholarship</a>
-<a href='#'>Hire our Grads</a>
+<a href='#'>Front End</a>
+<a href='#'>Back End</a>
+<a href='#'>Data Engineer</a>
   </div>
  
   <div className='footer-box'>

@@ -10,12 +10,31 @@
     -webkit-user-select: none;
     -webkit-user-drag: none;
 }
-
+.alert{
+ width: 100%;
+ flex-shrink: 0;
+ position: fixed;
+ display: flex;
+ padding: 15px 0%;
+ gap: 10px;
+ top: 0%;
+ text-align: center;
+ justify-content: center;
+background: #FCCECF;
+}
+.alert b{
+    color: #F53B41;
+    cursor: pointer;   
+}
+.alert p{
+    font-weight: 500;
+}
 .navbar {
     display: flex;
     align-items: center;
     padding: 20px 100px;
     position: fixed;
+    top: 5.8%;
     width: 100%;
     justify-content: space-between;
 background: #fff;
@@ -29,7 +48,7 @@ background: #fff;
 
 }
 .navbar .navbar-logo img{
- width: 40%;
+ width: 30%;
 }
 .navbar .navbar-links {
     font-size: 17px;

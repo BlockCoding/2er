@@ -6,6 +6,10 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
     return(
         <div>
+            <div className="alert">
+                <p>ENDS 6/26: 50% off Pro memberships</p>
+                <b>USE CODE LEARN23JUNE</b>
+            </div>
             <div className="navbar">
                 <div className="navbar-logo">
                     {/* <Link to="/" className="company-logo"> */}
