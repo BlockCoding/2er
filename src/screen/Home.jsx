@@ -2,6 +2,7 @@ import React from 'react'
 import './style/home.css'
 import Female from '../images/female.png'
 import Developer from '../images/tech.png'
+import Form from '../Components/form'
 // import Male from '../images/man.png'
 import Devs from '../images/max.png'
 import Footer from '../Components/footer'
@@ -36,6 +37,8 @@ const Home = () => {
               <img src={Star} alt='star' />
             </div>
           </div>
+
+          <Form/>
         </div>
         <div className='hero-images'>
           <img src={Illustrations} alt='image' />
@@ -91,7 +94,7 @@ const Home = () => {
           <div className='secure-content'>
             <b>
             certification
-            </b>
+            </b>  
             <h2>
             Secure your dream job in Product Design and Software Development.
             </h2>

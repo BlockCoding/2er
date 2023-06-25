@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import '../Auth/SignIn.css'
 class SignIn extends Component {
     state = {
     email: '',
@@ -19,14 +19,21 @@ class SignIn extends Component {
       <div className="container">
         <form onSubmit={this.handleSubmit}>
             <h5> Sign In</h5>
+            <p>
+
+            </p>
             <div className="input-field">
                 <label htmlFor="email">Email</label>
-                <input type="email" id='email' onChange={this.handleChange} />
+                <input type="email" id='email' onChange={this.handleChange} placeholder='Email Address'/>
             </div>
             <div className="input-field">
                 <label htmlFor="password">Password</label>
-                <input type="password" id='password' onChange={this.handleChange} />
+                <input type="password" id='password' onChange={this.handleChange} placeholder='Password'
+                />
             </div> 
+            <div className='pwd'>
+              <p>Forget Password?</p>
+            </div>
             <div className="input-field">
                 <button className="btn">Login</button>
             </div>

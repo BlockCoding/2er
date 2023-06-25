@@ -56,8 +56,13 @@ background: #fff;
  color: #000;
 
 }
+.navbar .navbar-links .active {
+    color: #F53B41;
+}
 /* Styles for mobile devices */
 @media (max-width: 480px) {
+
+.alert,
 .navbar {
     display: none;
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import '../Components/Navbar.css'
 import logo from '../images/logo.png'
-import { Link } from "react-router-dom";
+import { NavLink, Link} from "react-router-dom";
 // import { Fa } from "react-icons/fa";
 const Navbar = () => {
     return(
@@ -18,12 +18,12 @@ const Navbar = () => {
                 </div>
                     <ul className="navbar-links">
                         <Link to="#">School</Link>
-                        <Link to="#">Course</Link>
-                        <Link to="#">About Us</Link>
-                        <Link to="#">Tuition</Link>
-                        <Link to="#">FAQs</Link>
-                        <Link to="/signIn">Login</Link>
-                        <Link to="/signUp">Sign Up</Link>
+                        <NavLink to="#">Course</NavLink>
+                        <NavLink to="#">About Us</NavLink>
+                        <NavLink to="#">Tuition</NavLink>
+                        <NavLink to="#">FAQs</NavLink>
+                        <NavLink to="/signIn">Login</NavLink>
+                        <NavLink to="/signUp">Sign Up</NavLink>
                        {/* <Link to="./about">About</Link>
                         <Link to="./privacy">Privacy</Link>
                         <Link to="./terms">Terms</Link>
