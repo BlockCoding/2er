@@ -179,10 +179,13 @@ width: 100%;
  .secure {
     display: flex;
     flex-direction: column;
-    padding: 10px 35px;
+    padding: 0px 35px;
  }
- .secure ,.secure-image {
+ .secure .secure-image {
     width: 100%;
+}
+#certificate {
+     padding-top: 30px;
  }
  .secure .secure-content{
     width: 100%;
@@ -195,6 +198,7 @@ width: 100%;
  }
 .secure .secure-image {
     width: 100%;
+    float: top;
 }
  .grid-red{
     display: none;

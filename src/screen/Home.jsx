@@ -89,7 +89,7 @@ const Home = () => {
       </div>
       <div className='secure'>
           <div className='secure-image'>
-          <img src={Certificate} alt='Certificates'/>
+          <img src={Certificate} alt='Certificates' id='certificate'/>
           </div>
           <div className='secure-content'>
             <b>

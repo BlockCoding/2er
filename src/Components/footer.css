@@ -23,3 +23,11 @@ footer .footer-box a{
     color: #fff;
     font-size: 15px;
 }
+/* Styles for mobile devices */
+@media (max-width: 480px) {
+    footer{
+        display: flex;
+        flex-direction: column;
+        padding: 40px 35px;
+    }
+}
