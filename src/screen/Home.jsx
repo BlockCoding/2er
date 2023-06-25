@@ -109,7 +109,7 @@ const Home = () => {
       <div className='secure'>
           <div className='secure-content'>
             <b>
-            certification
+          API
             </b>
             <h2>
             Secure your dream job in Product Design and Software Development.
@@ -122,7 +122,7 @@ const Home = () => {
             </button>
           </div> 
           <div className='secure-image'>
-          <img src={Api} alt='Certificates'/>
+          <img src={Api} alt='Certificates' id='API'/>
           </div>
       </div>
       <Footer />

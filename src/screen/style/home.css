@@ -13,7 +13,7 @@
     padding: 170px 100px;
 }
 .hero-sections .hero-content {
-    padding: 40px 0%;
+    padding: 80px 0%;
     width: 50%;
 }
 .hero-sections .hero-content h2 {
@@ -183,6 +183,9 @@ width: 100%;
  }
  .secure .secure-image {
     width: 100%;
+}
+#API {
+    padding-bottom: 30px;
 }
 #certificate {
      padding-top: 30px;
