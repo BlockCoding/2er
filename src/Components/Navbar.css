@@ -24,10 +24,12 @@ background: #FCCECF;
 }
 .alert b{
     color: #F53B41;
-    cursor: pointer;   
+    cursor: pointer;
+    font-size: 14px;
 }
 .alert p{
     font-weight: 500;
+    font-size: 14px;
 }
 .navbar {
     display: flex;
@@ -51,7 +53,7 @@ background: #fff;
  width: 30%;
 }
 .navbar .navbar-links {
-    font-size: 15px;
+    font-size: 13px;
  font-weight: 500;
  color: #000;
 
