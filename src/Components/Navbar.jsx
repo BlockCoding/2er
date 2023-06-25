@@ -40,16 +40,16 @@ const Navbar = () => {
                     <NavLink to='/'>About Us</NavLink>
                   </li>
                   <li>
-                    <NavLink to='/privacy'>Tuition</NavLink>
+                    <NavLink to='/'>Tuition</NavLink>
                   </li>
                   <li>
                     <NavLink to='/'>FAQs</NavLink>
                   </li>
                   <li>
-                    <NavLink to='/signIn'>Login</NavLink>
+                    <NavLink to='/'>Login</NavLink>
                   </li>
                   <li>
-                    <NavLink to='/signUp'>Sign Up</NavLink>
+                    <NavLink to='/'>Sign Up</NavLink>
                   </li>
                   {/* <Dropdown/> */}
                 </ul>
