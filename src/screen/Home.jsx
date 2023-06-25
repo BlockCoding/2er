@@ -94,7 +94,7 @@ const Home = () => {
           <div className='secure-content'>
             <b>
             certification
-            </b>  
+            </b>
             <h2>
             Secure your dream job in Product Design and Software Development.
             </h2>

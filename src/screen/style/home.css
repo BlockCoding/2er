@@ -115,33 +115,18 @@ width: 100%;
 .secure .secure-content b{
 color: #FF6EA9;
 display: flex;
-/* width: 172.835px; */
-/* height: 20.861px; */
-flex-direction: column;
-justify-content: center;
-flex-shrink: 0;
 font-size: 13px;
-font-family: Arial;
 font-weight: 700;
-line-height: 21.904px;
-letter-spacing: 2.608px;
 text-transform: uppercase;
 }
 .secure .secure-content h2 {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
     color: #05192D;
     font-size: 35px;
-    width: 84%;
     font-weight: 700;
     /* letter-spacing: -1.304px; */
 }
 .secure .secure-content p{
     font-size: 18px;
-    width: 84%;
     padding: 16px 0%;
 }
 .secure .secure-content button {
@@ -191,20 +176,28 @@ width: 100%;
     grid-template-columns: repeat(1,1fr);
     padding: 20px 35px;
  }
- .secure{
+ .secure {
+    display: flex;
     flex-direction: column;
-    padding: 30px 35px;
+    padding: 10px 35px;
+ }
+ .secure ,.secure-image {
     width: 100%;
  }
- .secure-image {
-    width: 100%;
-    background: #000;
- }
- .secure-image img {
+ .secure .secure-content{
     width: 100%;
  }
- .secure-content {
-    width: 100%
+ .secure .secure-content h2{
+    font-size:30px;
+ }
+ .secure .secure-content p{
+    font-size: 15px;
+ }
+.secure .secure-image {
+    width: 100%;
+}
+ .grid-red{
+    display: none;
  }
  
 }
